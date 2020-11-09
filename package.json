@@ -4,7 +4,9 @@
   "description": "A website for Baby Panda",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/sheelranjan/BabyPanda/issues"
   },
-  "homepage": "https://github.com/sheelranjan/BabyPanda#readme"
+  "homepage": "https://github.com/sheelranjan/BabyPanda#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.16.1"
+  }
 }

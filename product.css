@@ -1,0 +1,74 @@
+body{
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    
+}
+.navbar {
+    background-color: aliceblue;
+}
+
+.nav-link {
+    font-size: 125%;
+}
+
+#logo {
+    height: 50px;
+    padding: 3px;
+}
+
+.navbar-brand {
+    font-size: 150%;
+}
+.heading {
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+
+}
+
+.card {
+    margin: 0px 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px grey;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: black;    
+    
+}
+.card img{
+    border-radius: 50px;
+    padding: 10px;
+}
+.container1 {
+
+    max-width: 80%;
+    min-height: 400px;
+    padding: 20px 30px 20px 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#38f9d7 0%, #43e97b 100% );
+}
+.card button{
+   
+    border-radius: 50px;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%)}
+.btn-grad {
+   
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
